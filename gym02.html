@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        body {
+            background-image: url(/sample\ images/gym02.jpg);
+            background-size: cover;
+        }
+
+        .gym {
+            color: rgb(1, 241, 241);
+        }
+        #foot{
+            color: rgb(32, 255, 51);
+        }
+        .icon{
+            height: 60px;
+            margin: 10px;
+            margin-left: 120px;
+            padding: 10px;
+            float: left;
+            overflow: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h2 class="gym">Fill this form</h2>
+    <form action="gym02.html">
+        <div class="gym">
+            <label for="name">Name:</label>
+            <input type="text" name="username" id="name">
+        </div>
+        <br>
+        <div class="gym">
+            <label for="email">E-mail:</label>
+            <input type="text" name="useremail" id="email">
+        </div>
+        <br>
+        <div class="gym" required>PHONE no*:<input type="number" name="userroll"><br>
+           D.O.B: <input type="date" name="userdate">
+        </div>
+        <br>
+        <div class="gym">
+            Are you above 18 year <input type="checkbox" name="eligibility" checked>
+
+        </div>
+        <br>
+        <div class="gym">
+            Gender: Male <input type="radio" name="Gender"><br>
+            Female:<input type="radio" name="Gender"><br>
+            Other:<input type="radio" name="Gender"><br>
+        </div>
+        <br>
+        <div class="gym">Write about yourself:<textarea name="mytext" cols="15" rows="2">
+
+        </textarea>
+        </div>
+        <br>
+        <div class="gym">
+            <label for="sub">Subscription type:</label>
+            <select name="mycar" id="subs">
+                <option value="Month">Monthly</option>
+                <option value="3month">Quaterly</option>
+                <option value="year" selected>Yearly</option>
+            </select>
+        </div>
+
+
+        <div class="gym">
+            <input type="submit" value="submit now"><br>
+            <input type="reset" value="Reset now">
+        </div>
+        <br>
+    </form>
+
+</body>
+
+<footer id="foot"><p> this is the foot of the website</p>
+    <nav class="foot">
+         <div>
+          <ul>
+              <a href="https://instagram.com"><img class="icon" src="/sample images/insta.png" alt=""></a>
+             <a href="https://www.youtube.com/" ><img class="icon" src="/sample images/yt.png" alt=""></a>
+            <a href="https://github.com/"> <img src="/sample images/git.png" alt="" class="icon"></a>
+            <a href="https://www.linkedin.com/"> <img src="/sample images/link.png" alt="" class="icon"></a>
+            <a href="https://twitter.com/"> <img src="/sample images/twitter.png" alt="" class="icon"></a>
+          </ul>
+      </div>
+      </nav>
+  </footer>
+
+</html>
